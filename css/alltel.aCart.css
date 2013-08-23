@@ -1,0 +1,22 @@
+.a-cart-trolley-icon { background:transparent url(../img/shoppingcart.png) no-repeat center left; width:18px; height:18px; display:inline-block; clear:right;}
+.a-cart-clicked { background-color: #e3e3e3; border: 1px solid #BFBFBF; }
+.a-cart-details { 
+	background-color: #ffffff;  
+    border: 1px solid #BFBFBF;  
+    float: left;  
+    font-size: 12px;  
+    max-width: 420px;  
+    padding: 6px;  
+    position: absolute; 
+    z-index: 9999; 
+}
+.a-cart-details a:hover { font-style:italic; }
+.a-cart-details table { margin-top: 8px; border-collapse: collapse; width: 100%; }
+.a-cart-details th { border-bottom: 1px solid black; }
+.a-cart-details tr td:last-child { width: 30px; padding-right:4px; text-aligh: center;}
+.a-cart-total td { border-top: 1px solid black; font-weight:bold;}
+tr.a-cart-product { background-color: #dedede; font-weight: bold;}
+tr.a-cart-charge:nth-child(even),
+table.a-cart-hardware tr:nth-child(even) {background-color: #ebebeb;}
+tr.a-cart-charge td:first-child { padding-left:16px;}
+.a-cart-submit {margin:10px 6px;}
